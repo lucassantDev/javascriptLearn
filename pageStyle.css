@@ -1,171 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+
 *{
     margin: 0px;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Onest',Arial, Helvetica, sans-serif;
 }
 
 .box{
-    width: 100vw;
-    height: 100vh;
-    border: 1px solid red;
-    background-color: rgb(19, 19, 59);
-    
-}
-
-
-#titulo{
-    height: 100%;
-    width: 50%;
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#span_titulo{
-    width: fit-content;
-    font-size: 2rem;
-    color: #cfcccc;
-    border: 1px solid red;
-}
-
-/*  */
-
-
-#span_desenvolvedor{
-   width: 100%;
-   border: 1px solid red;
-   text-align: center;
-   font-size: 1rem;
-   margin-top: 30px;
-   margin-bottom: 30px;
-   color: #cfcccc;
-}
-
-#desenvolvedor{
     width: 100%;
-    height: 500px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    height: 800px;
+    border: 1px solid red;
+    background-color: rgb(255, 255, 255);
     
 }
 
-#imagem_redes{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid red;
+#imagemRecife{
+    width: 100%;
+    height: 352px;
+    background-image: url(image/recife_file.png);
+    background-size: cover;
+    
 }
 
-#img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid red;
-}
-
-#redes{
-    width: 200px;
-    height: 50px;
-    margin-top: 5px;
-    border: 1px solid red;
+#tituloImagem{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 352px;
     display: flex;
-    justify-content: space-evenly;
-}
-
-.quadrado{
-    border: 1px solid black;
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    transition: 0.3s;
-    color: #cfcccc;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: #ffffff;
+
 }
 
-.quadrado:hover{
-    cursor: pointer;
-    background-color: orangered;
-    transition: 0.3s;
+#textoRecife{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-#texto{
-    width: 70%;
-    height: 150px;
-    border: 2px solid red;
-    border-radius: 20px;
-    padding: 10px;
-    color: #cfcccc;
+#textoRecife{
+    font-size: 2.5rem;
+    margin-top: 100px;
 }
 
 /*  */
-
-#boxTecnologia{
-    width: 100vw;
-    height: 100vh;
-    border: 1px solid red;
-    background-color: rgb(19, 19, 59);
-    display: flex;
-}
-
-#icones{
-    height: 100%;
-    width: 50%;
-    border: 1x solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.espaco_icones{
-    width: 90%;
-    height: 150px;
-    border: 1px solid red;
-    margin-bottom: 20px;
-    border-radius: 35px;
-}
-
-#tecnologias{
-    height: 100%;
-    width: 50%;
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#span_tecnologias{
-    width: fit-content;
-    font-size: 2rem;
-    color: #cfcccc;
-    border: 1px solid red;
-}
-/*  */
-
-#boxProjetos{
-    width: 100vw;
-    height: 200vh;
-    border: 1px solid red;
-    background-color: rgb(19, 19, 59);
-    display: flex;
-}
-
-#tituloProjeto{
-    width: 100vw;
-    height: 70vh;
-    font-size: 1.5rem;
-    color: #cfcccc;
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
