@@ -25,7 +25,6 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    border: 1px solid rebeccapurple;
 }
 
 #inicio span{
@@ -42,4 +41,25 @@ body{
     align-items: center;
     justify-content: center;
     border: 2px solid #eeff05;
+}
+/*  */
+
+.box{
+    width: 100%;
+    height: 650px;
+
+}
+/*  */
+
+#teste1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bloco{
+    width: 60%;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
