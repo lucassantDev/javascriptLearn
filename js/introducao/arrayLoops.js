@@ -29,29 +29,29 @@ while ( gols <= 10){
 }
 
 
-// Exercício 
-1 -> array com os anos em que o Brasil venceu a copa
+// Exercício 1 -> array com os anos em que o Brasil venceu a copa
 
 Brasil = ["1959", "1962", "1970",  "1994", "2002"]
+
 //função para mostrar cada ano utilizando o foreach. 
 Brasil.foreach(anosCopa(item){
      console.log(Brasil[item]);
 });
 
-2 -> interagindo com o array
+//2 -> interagindo com o array
 
 Brasil.foreach(anosCopa(item){
      console.log(`O Brasil ganhou a copa de ${Brasil[item]}`);
 });
 
 
-3 -> interagindo com o array de frutas e parando quando chegar na "Pera"
+//3 -> interagindo com o array de frutas e parando quando chegar na "Pera"
 
-Frutas = ["Banana", "Maçã", "Pera", "Uva", "Melancia"]
+// Frutas = ["Banana", "Maçã", "Pera", "Uva", "Melancia"]
 
-Frutas.foreach(fruta(item){
-     console.log(item);
-     if (item  === "Pera"){
-            break;
-     }
-});
+// Frutas.foreach(fruta(item){
+//      console.log(item);
+//      if (item  === "Pera"){
+//           break;
+//      }
+// });
